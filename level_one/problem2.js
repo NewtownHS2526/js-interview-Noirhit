@@ -10,6 +10,12 @@
 // Task: Use === to check exact match
 // Hint: === checks both value and type
 function easyProblem1(ticketType, age) {
+      if(ticketType === "Premium" && age === 16){
+        return "can access"
+    }
+    else{
+        return "go home"
+    }
     // TODO: Write your code here
     // Use === to check if ticketType equals "VIP" AND age equals 16
     // Return "can access" if true, otherwise "go home"
@@ -25,6 +31,13 @@ console.log("Easy 1 - Test 2:", easyProblem1("vip", 16)); // Should print: "go h
 // Task: Check if ticketType is NOT "VIP" when age is 16
 // Hint: !== means "not equal to"
 function easyProblem2(ticketType, age) {
+
+    if(memberType !== "Premium", age !== 18){
+        return "can sign in"
+    }
+    else{
+        return "go home"
+    }
     // TODO: Write your code here
     // Check if age is 16 AND ticketType is NOT "VIP"
     // Return "can sign in" if true, otherwise "go home"
@@ -40,6 +53,7 @@ console.log("Easy 2 - Test 2:", easyProblem2("VIP", 16)); // Should print: "go h
 // Task: Use && operator to combine conditions
 // Hint: Think about the order of operations
 function mediumProblem(ticketType, age) {
+    
     // TODO: Write your code here
     // Use if-else if-else with && operator
     // Make sure to check all three conditions correctly
