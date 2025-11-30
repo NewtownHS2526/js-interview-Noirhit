@@ -69,6 +69,18 @@ console.log("Medium - Test 5:", mediumProblem("Premium", 20)); // Should print: 
 // Task: Use nested if-else statements with proper structure
 // Hint: Think about the logic flow - what should be checked first?
 function hardProblem(ticketCategory, age) {
+    function hardProblem(ticketCategory, age) {
+    if (age === 18) {
+        if (ticketCategory === "Backstage") {
+            return "can access";
+        } else {
+            return "can sign in";
+        }
+    } else {
+        return "go home";
+    }
+}
+
     // TODO: Write your code here
     // Create nested if statements:
     //
